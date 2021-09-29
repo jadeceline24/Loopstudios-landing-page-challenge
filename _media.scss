@@ -28,6 +28,12 @@
 }
 
 @media (min-width: 1024px) {
+  .header {
+    margin: 3rem 0 0 0;
+  }
+  .home__title {
+    margin-right: 4rem;
+  }
   .container {
     max-width: 968px;
     margin-left: auto;
