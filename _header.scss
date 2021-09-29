@@ -1,0 +1,46 @@
+.header {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: $z-fixed;
+  transition: 0.5s;
+}
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__menu {
+    visibility: hidden;
+  }
+  &__link {
+    color: $White;
+    font-size: $biggest-font-size;
+    font-family: $body-font;
+    text-transform: uppercase;
+  }
+  &__items {
+    padding-bottom: 1.5rem;
+  }
+  &__logo {
+    width: 40%;
+    z-index: $z-fixed;
+  }
+  &__toogle {
+    z-index: $z-fixed;
+  }
+}
+.show-menu {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  padding: 10rem 2.8rem;
+  z-index: $z-tooltip;
+  width: 100%;
+  min-height: 100vh;
+  align-items: initial;
+  background-color: $Black;
+  visibility: visible;
+}

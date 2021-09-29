@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+$font-Alata: "Alata", sans-serif;
+$body-font: "Josefin Sans", sans-serif;
+
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$Dark-Gray: hsl(0, 0%, 55%);
+$Very-Dark-Gray: hsl(0, 0%, 41%);
+
+$biggest-font-size: 2rem;
+$h2-font-size: 1.8rem;
+$h3-font-size: 1.125rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+// Responsive typography
+@media screen and (min-width: 968px) {
+  $biggest-font-size: 3rem;
+  $h2-font-size: 1.75rem;
+  $h3-font-size: 1.25rem;
+  $normal-font-size: 1rem;
+  $small-font-size: 0.875rem;
+  $smaller-font-size: 0.813rem;
+}
+
+$font-semi-bold: 300;
+$font-bold: 400;
+
+/*========== Margenes ==========*/
+$mb-0-5: 0.5rem;
+$mb-0-75: 0.75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;

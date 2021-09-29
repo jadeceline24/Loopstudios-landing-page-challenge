@@ -1,0 +1,213 @@
+@media (min-width: 768px) {
+  .home__container {
+    padding-right: 20rem;
+  }
+  .home__title {
+    padding: 1rem 5rem 1rem 1rem;
+  }
+  .leader_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .leader__title {
+    text-align: initial;
+  }
+  .leader__desc {
+    text-align: initial;
+  }
+  .container {
+    max-width: 968px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .creation__data {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.9rem;
+    row-gap: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav__menu {
+    visibility: visible;
+  }
+
+  .nav__toogle {
+    display: none;
+  }
+  .nav__items {
+    padding-bottom: 0;
+    padding-left: 1rem;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: end;
+  }
+  .nav__link {
+    font-size: $normal-font-size;
+    text-transform: none;
+    font-family: $font-Alata;
+    padding-bottom: 5px;
+
+    &:hover {
+      border-bottom: 2px solid $White;
+    }
+  }
+
+  .home {
+    background: url(/images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+  }
+  .home__container {
+    padding-right: 25rem;
+  }
+  .home__title {
+    font-size: 3rem;
+    padding: 1rem 2rem 1rem 1rem;
+  }
+
+  .leader__data {
+    background-color: $White;
+    position: absolute;
+    bottom: 0;
+    right: 120px;
+    width: 50%;
+    height: 50%;
+    padding: 3rem;
+    margin: 1rem;
+  }
+
+  .leader__center {
+    width: 600px;
+  }
+  .img {
+    width: 220px;
+    min-height: 380px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: $mb-1;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  .creation {
+    &__desc {
+      text-align: initial;
+      margin-bottom: $mb-2;
+      margin-left: 0;
+    }
+
+    &__data {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    &__btn {
+      display: none;
+    }
+    &__flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__btn2 {
+      font-size: $smaller-font-size;
+      cursor: pointer;
+      letter-spacing: 3px;
+      color: $Black;
+      text-transform: uppercase;
+      border: 2px $Black solid;
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      min-width: 130px;
+      background-color: transparent;
+      text-decoration: none;
+      margin: 1rem 0.9rem;
+      &:hover {
+        color: $White;
+        background-color: $Black;
+      }
+    }
+
+    &__image1 {
+      background: url(/images/desktop/image-deep-earth.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image2 {
+      background: url(/images/desktop/image-night-arcade.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image3 {
+      background: url(/images/desktop/image-soccer-team.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image4 {
+      background: url(/images/desktop/image-grid.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image5 {
+      background: url(/images/desktop/image-from-above.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image6 {
+      background: url(/images/desktop/image-pocket-borealis.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image7 {
+      background: url(/images/desktop/image-curiosity.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__image8 {
+      background: url(/images/desktop/image-fisheye.jpg) no-repeat;
+      background-size: cover;
+    }
+    &__title {
+      padding: 20rem 6rem 1rem 2rem;
+      line-height: 1;
+    }
+  }
+  .footer__container {
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    text-align: left;
+  }
+  .footer__logo {
+    grid-area: 1 / 1 / 2 / 2;
+    margin: 0;
+    width: 70%;
+  }
+  .footer__menu {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .footer__social {
+    display: flex;
+    grid-area: 1 / 2 / 2 / 3;
+    justify-content: flex-end;
+    gap: 1rem;
+    .footer__social-icon {
+      &:hover {
+        border-bottom: 2px solid $White;
+      }
+    }
+  }
+  .footer__end {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: right;
+  }
+  .footer__links {
+    display: flex;
+    gap: 1rem;
+  }
+  .footer__link {
+    padding-bottom: 5px;
+    &:hover {
+      border-bottom: 2px solid $White;
+    }
+  }
+}
